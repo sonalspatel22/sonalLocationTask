@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <com.appilary.radar.view.FingerPaintImageView
+        android:id="@+id/img_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:inEditMode="false"
+        app:strokeColor="@color/colorAccent"
+        app:strokeWidth="5dp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:layout_margin="15dp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/edit"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginRight="100dp"
+            android:background="@drawable/transpatent_circle"
+            android:padding="15dp"
+            android:src="@drawable/ic_pencil"
+            android:tint="@color/white" />
+
+        <ImageView
+            android:id="@+id/ok"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/transpatent_circle"
+            android:padding="15dp"
+            android:src="@drawable/ic_check_mark"
+            android:tint="@color/white" />
+
+    </LinearLayout>
+</FrameLayout>

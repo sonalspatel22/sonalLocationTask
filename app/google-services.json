@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "982834267163",
+    "firebase_url": "https://radar-af42c.firebaseio.com",
+    "project_id": "radar-af42c",
+    "storage_bucket": "radar-af42c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:982834267163:android:24737550b33bffdf6da4be",
+        "android_client_info": {
+          "package_name": "com.appilary.radar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "982834267163-jpengvaq1njk51459t0ck1t5jfp0gmki.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCsfSWy7FWxg7ZYuIU0bK4KFIzh4UAFRw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "982834267163-jpengvaq1njk51459t0ck1t5jfp0gmki.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/break_menu"
+        android:icon="@drawable/ic_break_24"
+        android:title="Break"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/upload_menu"
+        android:icon="@drawable/ic_upload_black_24dp"
+        android:title="Upload"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/setting_menu"
+        android:icon="@drawable/ic_menu_24"
+        android:title="Setting"
+        app:showAsAction="always" />
+
+</menu>

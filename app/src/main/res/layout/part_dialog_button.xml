@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="right"
+    android:padding="10dp"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:text="Cancel"
+        style="@style/fill_button" />
+
+    <TextView
+        android:id="@+id/ok"
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:text="Ok"
+        style="@style/fill_button_orange" />
+
+</LinearLayout>

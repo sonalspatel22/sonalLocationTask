@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:minHeight="120dp"
+        android:src="@drawable/app_logo" />
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:text="UserName"
+        android:textColor="@color/colorAccent"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/username_et"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/grey_border"
+        android:hint="UserName"
+        android:inputType="text"
+        android:maxLength="50"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <!-- Password Label -->
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Password"
+        android:textColor="@color/colorAccent"
+        android:textSize="12sp" />
+
+    <EditText
+        android:id="@+id/password_et"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/grey_border"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:maxLength="10"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textSize="14sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_verify"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/button_bg"
+        android:padding="12dp"
+        android:text="Verify"
+        android:textColor="@color/white" />
+
+</LinearLayout>

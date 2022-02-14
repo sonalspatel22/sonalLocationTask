@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="radio_other_type" type="id"/>
+    <item name="date_time_selected_val" type="id"/>
+    <item name="column_id" type="id"/>
+    <item name="row_id" type="id"/>
+    <item name="color" type="id"/>
+    <item name="other_id" type="id"/>
+    <item name="cati_is_comment" type="id"/>
+    <item name="seekbar_id" type="id"/>
+    <item name="isSelected" type="id"/>
+
+</resources>

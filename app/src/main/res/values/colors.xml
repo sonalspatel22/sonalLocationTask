@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1594F8</color>
+    <color name="colorPrimaryDark">#3F51B5</color>
+    <color name="colorAccent">#E91E63</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="dialog_bg">#a61e1e1e</color>
+    <color name="stroke_color">#FFD1D1D1</color>
+
+    <color name="trans_black">#9C000000</color>
+
+    <color name="btn">#f26522</color>
+    <color name="btnpressed">#dc5313</color>
+    <color name="btndisable">#80F26522</color>
+
+    <color name="light_black">#1e1e1e</color>
+
+    <color name="dark_grey">#ADADAD</color>
+    <color name="grey">#FFD1D1D1</color>
+
+    <color name="screen_bg">#ECECEC</color>
+
+    <color name="yelloworange">#FFC107</color>
+
+    <color name="red">#F62C1D</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="semitransparent">#5c8ac2d9</color>
+    <color name="divider">#868686</color>
+
+    <color name="das_1">#FFE4C4</color>
+    <color name="das_2">#9F90EE90</color>
+    <color name="das_3">#E0FFFF</color>
+    <color name="das_4">#A987CEFA</color>
+    <color name="das_5">#B5D8BFD8</color>
+    <color name="das_6">#E6E6FA</color>
+
+    <color name="text_sign">#CACACA</color>
+
+
+    <!-- Camera-->
+    <color name="icActive">#FFFFFFFF</color>
+    <color name="icFocused">#DDFFFFFF</color>
+    <color name="icPressed">#AAFFFFFF</color>
+</resources>
